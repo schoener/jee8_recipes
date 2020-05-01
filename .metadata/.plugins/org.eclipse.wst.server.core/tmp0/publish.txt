@@ -1,3 +1,0 @@
-#GlassFish 3
-#Fri May 01 18:33:26 CEST 2020
-org.eclipse.jst.jee.server\:de-javaee8ecipes-chapter01-recipe01-02=/home/schoener/servers/payara5_full/payara5/glassfish/domains/domain1/eclipseApps/de-javaee8ecipes-chapter01-recipe01-02

@@ -1,7 +1,0 @@
-INDEX VERSION 1.4+/home/schoener/workspace-jee8-recipes/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
-1407449262.index
-2515481345.index
-3687856200.index
-1084747343.index
-1901118708.index
-3859591584.index

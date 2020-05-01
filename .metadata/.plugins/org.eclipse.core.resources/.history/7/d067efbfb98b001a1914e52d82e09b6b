@@ -1,7 +1,0 @@
-package de.javaee8recipes.chapter01.recipe0102;
-
-import javax.servlet.http.HttpServlet;
-
-public class SimpleServlet extends HttpServlet {
-
-}

@@ -1,3 +1,0 @@
-eclipse.preferences.version=1
-module-start-timeout=300000
-runtimes=<?xml version\="1.0" encoding\="UTF-8" standalone\="no"?>\n<runtimes>\n  <runtime id\="Payara Server 5 (5.201)" location\="/home/schoener/servers/payara5_full/payara5" name\="Payara Server 5 (5.201)" runtime-type-id\="payara.runtime" server.jdk\="/usr/lib/jvm/java-8-openjdk-amd64" timestamp\="0"/>\n</runtimes>\n

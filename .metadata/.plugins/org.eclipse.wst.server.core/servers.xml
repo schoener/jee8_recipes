@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<servers>
-  <server auto-publish-setting="2" auto-publish-time="5" glassfish.adminserverportnumber="4848" glassfish.domainpath="/home/schoener/servers/payara5_full/payara5/glassfish/domains/domain1" glassfish.serverportnumber="8080" hostname="localhost" id="Payara Server 5 (5.201) [domain1]" name="Payara Server 5 (5.201) [domain1]" runtime-id="Payara Server 5 (5.201)" server-type="payara.server" server-type-id="payara.server" start-timeout="240" stop-timeout="240" timestamp="39">
-    <list key="modules"/>
-  </server>
-</servers>
