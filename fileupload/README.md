@@ -1,7 +1,7 @@
 # Simple File Uploader Implementation
-This is a html servlet file upload implementation. The uploaded file will be read and printed on the page. 
+This is a simple html servlet file upload implementation. The uploaded file will be read and printed on the page. 
 # Form description
-* The form looks like this:
+* The form which will be used looks like this:
 
 ```
 <form method="POST" action="fileupload" enctype="multipart/form-data"> 
