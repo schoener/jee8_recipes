@@ -29,7 +29,7 @@ public class FileUploader extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		out.println("<html>");
 		out.println("<head>");
-		out.println("<title>Servlet NumberProcessor</title>");
+		out.println("<title>Servlet File Uploader</title>");
 		out.println("</head>");
 		out.println("<body>");
 		out.println("<h2> file name:" + fileName + "</h2>");
