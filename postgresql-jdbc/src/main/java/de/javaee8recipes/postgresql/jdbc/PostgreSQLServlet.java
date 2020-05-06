@@ -1,4 +1,4 @@
-package e.javaee8recipes.postgresql.jdbc;
+package de.javaee8recipes.postgresql.jdbc;
 
 import java.io.IOException;
 import java.io.PrintWriter;
