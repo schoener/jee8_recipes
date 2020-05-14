@@ -23,7 +23,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>postgresql-jdbc</finalName>
+		<finalName>payara-postgresql-jdbc</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
