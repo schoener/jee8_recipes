@@ -25,7 +25,7 @@ public class PostgreSQLServlet extends HttpServlet {
 		PrintWriter writer = resp.getWriter();
 		try {
 			Connection connection = getDbConnection();
-			writer.println("<html>");
+			writer.println("<hprintlntml>");
 			writer.println("<head/>");
 			writer.println("<body>");
 			writer.println("<h1>postgresql database version: </h1>");
