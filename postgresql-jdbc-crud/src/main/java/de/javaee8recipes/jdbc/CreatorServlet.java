@@ -1,6 +1,7 @@
 package de.javaee8recipes.jdbc;
 
 import java.io.IOException;
+import java.io.PrintWriter;
 import java.sql.Connection;
 import java.sql.Date;
 import java.sql.PreparedStatement;
@@ -37,7 +38,12 @@ public class CreatorServlet extends HttpServlet {
 			statement.setString(5, description);
 			statement.setDate(6, publishDate);
 			boolean dataInserted = statement.execute();
-			System.out.println("data inserted " + dataInserted);
+			PrintWriter writer = resp.getWriter();
+			writer.println("<html>");
+			writer.println("<body>");
+			writer.println("data inserted " + dataInserted);
+			writer.println("</body>");
+			writer.println("</html>");
 		} catch (ClassNotFoundException e) {
 			e.printStackTrace();
 		} catch (SQLException e) {
