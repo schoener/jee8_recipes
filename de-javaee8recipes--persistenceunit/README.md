@@ -1,4 +1,4 @@
-# Persistence unit integration
+# Persistence unit integration with JNDA resource
 
 * defined the persistence.xml in META-INF folder
 * transaction-type attribute of a persistence unit indicates whether Java Transaction API entity managers will be created 
