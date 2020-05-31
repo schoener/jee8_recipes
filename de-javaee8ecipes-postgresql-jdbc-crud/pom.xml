@@ -2,8 +2,8 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>de.javaee8recipes.jdbc</groupId>
-	<artifactId>postgresql-jdbc-crud</artifactId>
+	<groupId>de.javaee8ecipes.postgresql.jdbc.crud</groupId>
+	<artifactId>de-javaee8ecipes-postgresql-jdbc-crud</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<properties>
 		<failOnMissingWebXml>false</failOnMissingWebXml>
@@ -22,7 +22,7 @@
 		</dependency>
 	</dependencies>
 	<build>
-		<finalName>postgresql-jdbc-crud</finalName>
+		<finalName>de-javaee8ecipes-postgresql-jdbc-crud</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
