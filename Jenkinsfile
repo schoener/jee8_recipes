@@ -15,11 +15,6 @@ pipeline {
 		sh 'cd de-javaee8ecipes-servlet'    
                 sh 'mvn -Dmaven.test.failure.ignore=true clean install' 
             }
-            post {
-                success {
-                    junit 'target/surefire-reports/**/*.xml' 
-                }
-            }
         }
     }
 }
