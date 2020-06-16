@@ -2,6 +2,8 @@ package de.javaee8recipes.cdi.injection.implicit.bean.archive;
 
 import javax.enterprise.context.RequestScoped;
 
+import de.javaee8recipes.cdi.injection.implicit.bean.CDIBean;
+
 @RequestScoped
 public class CDIBeanImpl implements CDIBean {
 

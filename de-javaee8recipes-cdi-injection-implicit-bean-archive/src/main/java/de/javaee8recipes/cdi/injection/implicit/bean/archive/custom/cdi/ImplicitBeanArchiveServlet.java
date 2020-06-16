@@ -1,4 +1,4 @@
-package de.javaee8recipes.cdi.injection.implicit.bean.archive;
+package de.javaee8recipes.cdi.injection.implicit.bean.archive.custom.cdi;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -10,11 +10,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-@WebServlet(urlPatterns = "/implicit-bean-archive")
+@WebServlet(urlPatterns = "/implicit-bean-archive-custom-cdi")
 public class ImplicitBeanArchiveServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	@Inject
-	private CDIBeanImpl bean;
+	private CustomCDIBean bean;
 
 	@Override
 	protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
