@@ -1,4 +1,4 @@
-package de.javaee8recipes.cdi.injection.implicit.bean.archive;
+package de.javaee8recipes.cdi.injection.implicit.bean.servlet;
 
 import java.io.IOException;
 import java.io.PrintWriter;
@@ -9,6 +9,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+
+import de.javaee8recipes.cdi.injection.implicit.bean.impl.CDIBeanImpl;
 
 @WebServlet(urlPatterns = "/implicit-bean-archive")
 public class ImplicitBeanArchiveServlet extends HttpServlet {
