@@ -32,7 +32,9 @@ public class ExplicitBeanArchiveServlet extends HttpServlet {
 		writer.println("<body>");
 		writer.println("<h1>Output Beans: </h1>");
 		writer.println(bean.getMessage());
+		writer.println("<br/>");
 		writer.println(namedBean.getMessage());
+		writer.println("<br/>");
 		writer.println(ejbBean.getMessage());
 		writer.println("</body>");
 		writer.println("</html>");
